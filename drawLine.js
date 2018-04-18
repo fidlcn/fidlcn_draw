@@ -3,7 +3,7 @@
  * 传递四个参数：one：基准点的class，two：辅助点的class，parent：父级的class，code：0/1 分别是横向/纵向
 */
 drawLine = (function (){
-    return {
+    return { 
         contact:function(one , two , parent , code) {
             var objone = document.getElementsByClassName(one)[0].getBoundingClientRect();
             var objtwo = document.getElementsByClassName(two)[0].getBoundingClientRect();
